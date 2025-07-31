@@ -18,7 +18,22 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'serif': ['Crimson Text', 'serif'],
+				'sans': ['Inter', 'sans-serif'],
+			},
 			colors: {
+				cognac: {
+					DEFAULT: 'hsl(var(--cognac))',
+					light: 'hsl(var(--cognac-light))',
+					dark: 'hsl(var(--cognac-dark))',
+				},
+				academic: {
+					blue: 'hsl(var(--academic-blue))',
+					'blue-light': 'hsl(var(--academic-blue-light))',
+					gray: 'hsl(var(--academic-gray))',
+					'gray-light': 'hsl(var(--academic-gray-light))',
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
