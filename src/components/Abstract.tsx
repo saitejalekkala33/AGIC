@@ -8,21 +8,7 @@ const Abstract = () => {
         
         <div className="prose prose-lg max-w-none">
           <p className="text-foreground/90 leading-relaxed mb-6">
-            Graph Neural Networks (GNNs) are increasingly being used for a variety of ML applications on graph data. 
-            Because graph data does not follow the independently and identically distributed (<em>i.i.d.</em>) assumption, 
-            adversarial manipulations or incorrect data can propagate to other data points through message passing, 
-            which deteriorates the model's performance.
-          </p>
-          
-          <p className="text-foreground/90 leading-relaxed mb-6">
-            To allow model developers to remove the adverse effects of manipulated entities from a trained GNN, 
-            we study the recently formulated problem of <em>Corrective Unlearning</em>. We find that current graph 
-            unlearning methods fail to unlearn the effect of manipulations even when the whole manipulated set is known.
-          </p>
-          
-          <p className="text-foreground/90 leading-relaxed">
-            We introduce a new graph unlearning method, <span className="font-semibold text-cognac">COGNAC</span>, 
-            which can unlearn the effect of the manipulation set even when only 5% of it is identified.
+            Despite significant progress in image captioning, generating accurate and descriptive captions remains a long-standing challenge. In this study, we propose Attention-Guided Image Captioning (AGIC), which amplifies salient visual regions directly in the feature space to guide caption generation. We further introduce a hybrid decoding strategy that combines deterministic and probabilistic sampling to balance fluency and diversity. To evaluate AGIC, we conduct extensive experiments on the Flickr8k and Flickr30k datasets. The results show that AGIC matches or surpasses several state-of-the-art models while achieving faster inference. Moreover, AGIC demonstrates strong performance across multiple evaluation metrics, offering a scalable and interpretable solution for image captioning.
           </p>
         </div>
       </div>
