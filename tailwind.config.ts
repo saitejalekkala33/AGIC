@@ -23,10 +23,10 @@ export default {
 				'sans': ['Inter', 'sans-serif'],
 			},
 			colors: {
-				cognac: {
-					DEFAULT: 'hsl(var(--cognac))',
-					light: 'hsl(var(--cognac-light))',
-					dark: 'hsl(var(--cognac-dark))',
+				agic: {
+					DEFAULT: 'hsl(var(--agic))',
+					light: 'hsl(var(--agic-light))',
+					dark: 'hsl(var(--agic-dark))',
 				},
 				academic: {
 					blue: 'hsl(var(--academic-blue))',

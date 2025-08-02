@@ -41,7 +41,7 @@ const ResearchImages = () => {
         
         {/* Performance Metrics */}
         <div className="bg-secondary/50 rounded-lg p-8">
-          <h3 className="font-serif text-2xl font-semibold mb-6 text-center text-cognac">
+          <h3 className="font-serif text-2xl font-semibold mb-6 text-center text-agic">
             Model Performance
           </h3>
           
@@ -55,16 +55,16 @@ const ResearchImages = () => {
             </div>
             
             <div className="text-center">
-              <div className="text-4xl font-bold text-cognac mb-2">20%</div>
+              <div className="text-4xl font-bold text-agic mb-2">20%</div>
               <div className="text-lg text-academic-gray">Affected Accuracy</div>
               <div className="w-full bg-academic-gray-light rounded-full h-2 mt-2">
-                <div className="bg-cognac h-2 rounded-full" style={{ width: '20%' }}></div>
+                <div className="bg-agic h-2 rounded-full" style={{ width: '20%' }}></div>
               </div>
             </div>
           </div>
           
           <p className="text-center text-sm text-academic-gray mt-4">
-            * Values shown are representative metrics from the COGNAC methodology
+            * Values shown are representative metrics from the agic methodology
           </p>
         </div>
       </div>

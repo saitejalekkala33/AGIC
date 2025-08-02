@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Academic Research Paper Design System - Inspired by COGNAC paper website
-All colors MUST be HSL. Professional academic aesthetics with cognac/amber accents.
+/* Academic Research Paper Design System - Inspired by agic paper website
+All colors MUST be HSL. Professional academic aesthetics with agic/amber accents.
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap');
@@ -15,9 +15,9 @@ All colors MUST be HSL. Professional academic aesthetics with cognac/amber accen
     --foreground: 215 25% 15%;
     
     /* Academic color palette */
-    --cognac: 25 85% 45%;
-    --cognac-light: 25 75% 55%;
-    --cognac-dark: 25 95% 35%;
+    --agic: 25 85% 45%;
+    --agic-light: 25 75% 55%;
+    --agic-dark: 25 95% 35%;
     --academic-blue: 215 85% 35%;
     --academic-blue-light: 215 75% 45%;
     --academic-gray: 215 15% 65%;
