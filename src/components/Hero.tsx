@@ -18,8 +18,8 @@ const Hero = () => {
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
         {/* Main Title */}
         <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-semibold mb-8 leading-tight">
-          <span className="text-cognac font-bold">AGIC</span>
-          <span className="text-foreground/80 text-4xl md:text-5xl lg:text-6xl">
+          <span className="text-cognac font-bold">AGIC</span>:
+          <span className="text-foreground/80 text-3.5xl md:text-5xl lg:text-6xl">
             Attention-Guided Image Captioning to Improve Caption Relevance
           </span>
         </h1>
